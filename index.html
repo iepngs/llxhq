@@ -408,6 +408,9 @@ new Vue({
             return filesize.replace(/\s([K|M|G|B]*)B{0,1}/, '$1/s')
         }
     },
+    created(){
+        this.run();
+    }
 })
 </script>
 
