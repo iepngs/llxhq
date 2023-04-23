@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html lang="zh" class="js">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>流量消耗器 </title>
-    <meta name="keywords" content="流量消耗器,流量杀手">
-    <meta name="description" content="流量消耗器，web版流量杀手，https://api.vv1234.cn/llxhq/。">
-    <link rel="stylesheet" href="css/dashlite.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>流量消耗器 </title>
+	<meta name="keywords" content="流量消耗器,流量杀手">
+	<meta name="description" content="流量消耗器，web版流量杀手">
+	<link rel="stylesheet" href="css/dashlite.css">
 	<link rel="stylesheet" href="css/style.css?v=20220626">
 	<link rel="shortcut icon" href="//wx1.vv1234.cn/favicon.ico">
 	<link rel="manifest" href="manifest.json">
@@ -22,19 +22,6 @@
 	<script src="//api.vv1234.cn/ip/api.php?action=getip&code=js&token=test&from=llxhq"></script>
 	<script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 	<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-	<script>LA.init({id: "JjhvoI5bfYbANJBZ",ck: "JjhvoI5bfYbANJBZ",autoTrack:true,hashMode:true})</script>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4745983596040533"
-	     crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114909353-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-114909353-1');
-    </script>
-
 </head>
 <body class="nk-body npc-invest bg-lighter " style="cursor:pointer">
     <!-- wrap @s -->
@@ -337,11 +324,11 @@ new Vue({
     el: '#app',
     data: {
         set: {
-            input: 'https://cachefly.cachefly.net/100mb.test',
+            input: 'https://g.alicdn.com/aliyun-drive-fe/aliyun-drive/4.2.1-1-web/web/bundle.js',
             output: '',
             infinite: true,
             status: false,
-            thread: 1,
+            thread: 32,
         },
         tasks: [],
         speed: '0.00B/s',
@@ -459,36 +446,39 @@ new Vue({
 })
 </script>
 
-<script>document.onkeydown = function(){
-  if(window.event && window.event.keyCode == 123) {
-    alert("F12被禁用");
-    event.keyCode=0;
-    event.returnValue=false;
-  }
-  if(window.event && window.event.keyCode == 13) {
-    window.event.keyCode = 505;
-  }
-  if(window.event && window.event.keyCode == 8) {
-    alert(str+"\n请使用Del键进行字符的删除操作！");
-    window.event.returnValue=false;
-  }
-}
+<script>
+    document.onkeydown = function(){
+        if(window.event && window.event.keyCode == 123) {
+            alert("F12被禁用");
+            event.keyCode=0;
+            event.returnValue=false;
+        }
+        if(window.event && window.event.keyCode == 13) {
+            window.event.keyCode = 505;
+        }
+        if(window.event && window.event.keyCode == 8) {
+            alert(str+"\n请使用Del键进行字符的删除操作！");
+            window.event.returnValue=false;
+        }
+    }
 </script>  
  
   
-<script>document.oncontextmenu = function (event){
-if(window.event){
-event = window.event;
-}try{
-var the = event.srcElement;
-if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
-return false;
-}
-return true;
-}catch (e){
-return false;
-}
-}
+<script>
+    document.oncontextmenu = function (event){
+        if(window.event){
+            event = window.event;
+        }
+        try{
+            var the = event.srcElement;
+            if (!((the.tagName == "INPUT" && the.type.toLowerCase() == "text") || the.tagName == "TEXTAREA")){
+                return false;
+            }
+            return true;
+        }catch (e){
+            return false;
+        }
+    }
 </script>  
 
 <!-- 
@@ -508,10 +498,6 @@ useFlakeTrans: false
 });
 });</script>
 -->
-
-<script></script>  
-<script></script>  
-
 
 </body>
 </html>
