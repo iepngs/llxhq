@@ -12,12 +12,11 @@
 	<link rel="shortcut icon" href="//wx1.vv1234.cn/favicon.ico">
 	<link rel="manifest" href="manifest.json">
 	<script type="text/javascript">
-	if (navigator.serviceWorker != null) {
-		navigator.serviceWorker.register('sw-pwa.js?20220628')
-		.then(function(registration) {
-			console.log('Registered events at scope: ', registration.scope);
-		});
-	}
+		if (navigator.serviceWorker != null) {
+            navigator.serviceWorker.register('sw-pwa.js?20220628')].then(function(registration) {
+                console.log('Registered events at scope: ', registration.scope);
+            });
+	    }
 	</script>
 	<script src="//api.vv1234.cn/ip/api.php?action=getip&code=js&token=test&from=llxhq"></script>
 	<script src="//v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
@@ -233,13 +232,10 @@
     </div>
     <div class="card card-preview">
         <div class="card-inner">
-		
             <h6><em class="icon ni ni-info"></em> 工具说明</h6>
             <div class="accordion-inner">
-			
 				<p>多线程消耗流量,web版流量杀手</p>
                 <p>此工具可以以浪费的形式消耗你的流量</p>
-			
 				<p>
 				Tips: 如手机套餐内含头条系，阿里系，百度系等定向流量，填写免流量的资源URL，即可直接消耗免费的定向流量</p>
 				<p>如果是要消耗机场流量,建议使用海外节点,速度可能会更快</p>
@@ -268,8 +264,7 @@
     </div>
 </div>
 </div>
-
-            <div class="mt-5 text-center">
+<div class="mt-5 text-center">
            <p id='hitokoto' class="text-gray"></p>
      <a href="https://api.vv1234.cn/llxhq/" class="btn btn-sm btn-outline-light ">
            <em class="icon ni ni-heart"> 收藏本页</em> <em class="icon ni ni-heart"> </em>
